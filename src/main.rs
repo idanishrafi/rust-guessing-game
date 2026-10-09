@@ -2,7 +2,7 @@ use rand::{self};
 use std::io;
 fn main() {
     println!(
-        "This Program has Genrated a number between [1-100].\nTry to Guess it (You Get Five Tries) . "
+        "This Program Genrates a number between [1-100].\nTry to Guess it (You Get Five Tries) . "
     );
 
     let number = rand::random_range(1..=100);
